@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Pane layoutX="-5.0" prefHeight="60.0" prefWidth="356.0" style="-fx-background-color: #52438F;" />
+      <Button fx:id="btnImport" layoutX="100.0" layoutY="269.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" stylesheets="@../css/application.css" text="Import" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Pane layoutX="83.0" layoutY="93.0" prefHeight="149.0" prefWidth="184.0" style="-fx-background-color: #F2F1F6; -fx-border-color: #C5C0D9; -fx-border-radius: 5;">
+         <children>
+            <ImageView fitHeight="91.0" fitWidth="112.0" layoutX="47.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/import2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
